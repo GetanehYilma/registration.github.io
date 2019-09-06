@@ -48,11 +48,10 @@ fieldset {
 
 input[type="submit"], input[type="reset"] {
   background-color: #86d9bc;
-  font-size: 30px;
+  font-size: 25px;
   padding-left: 40px;
   padding-right: 40px;
 }
-
 .required {
   color: red;
 }

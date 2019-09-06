@@ -81,13 +81,13 @@
 
             <div>
               <label for="email">Email<span class="required">*</label>
-                <input type="email" name="email" id="email" class="inputs" required>
+                <input type="email" name="email" id="email" class="inputs" pattern="^[a-zA-Z_\-]+@(([a-zA-Z_\-])+\.)+[a-zA-Z]{2,4}$" required>
 
             </div>
 
             <div>
               <label for="tel">Phone Number<span class="required">*</label>
-                <input type="tel" name="phoneNumber" id="tel" class="inputs" required>
+                <input type="tel" name="phoneNumber" id="tel" class="inputs" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required>
 
             </div>
         </fieldset>
