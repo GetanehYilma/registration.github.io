@@ -52,3 +52,7 @@ input[type="submit"], input[type="reset"] {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+.required {
+  color: red;
+}
