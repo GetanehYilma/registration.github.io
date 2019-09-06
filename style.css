@@ -26,10 +26,14 @@ fieldset div {
 fieldset div.address {
   height: 7em;
 }
+fieldset {
+  border: none;
+}
 
 .inputs {
   float: right;
   margin-right: 100px;
+  width: 300px;
 }
 
 
