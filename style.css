@@ -1,0 +1,33 @@
+header {
+    background-color: #86d9bc;
+}
+
+header h2, header p {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+div p {
+  margin-left: 50px;
+  text-decoration: underline;
+}
+#firstSet, #secondSet {
+  display: inline-block;
+
+}
+
+
+.submitsection {
+  background-color: #b7bdbb;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #86d9bc;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}

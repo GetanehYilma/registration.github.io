@@ -1,10 +1,156 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Workshop registration</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <header>
+    <h2>Workshop Registration</h2>
+    <p>More Actions</p>
+    </header>
+
+    <div class="form">
+      <p>Register now while seats are available!</p>
+      <form action="" method="post">
+      <div id="formcontainer">
+
+        <fieldset id="firstSet">
+
+          <div>
+            <label for="fname">First Name
+              <input type="text" name="firstName" id="fname" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="lname">Last Name  </label>
+              <input type="text" name="lastName" id="lname" required>
+          </div>
+
+
+          <div>
+            <label for="company">Company/Institution</label>
+              <input type="text" name="company" id="company" required>
+
+          </div>
+
+          <div>
+            <label for="address">Address</label>
+              <textarea name="address" rows="8" cols="20" required></textarea>
+
+          </div>
+
+          <div>
+            <label for="city">City</label>
+              <input type="text" name="city" id="city" required>
+
+          </div>
+
+          <div>
+            <label for="state">State/Province/Region</label>
+              <select name="state" id="state">
+                <option value="">-Select-</option>
+                <option value="Addis Ababa">Addis Ababa</option>
+                <option value="Alabama">Alabama</option>
+                <option value="California">California</option>
+                <option value="Florida">Florida</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Iowa">Iowa</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="country">Country</label>
+                <select name="country" id="country">
+                   <option value="">-Select-</option>
+                   <option value="Afganistan">Afghanistan</option>
+                   <option value="Albania">Albania</option>
+                   <option value="Algeria">Algeria</option>
+                   <option value="Bahrain">Bahrain</option>
+                   <option value="Bangladesh">Bangladesh</option>
+                   <option value="Brazil">Brazil</option>
+                   <option value="Cambodia">Cambodia</option>
+                   <option value="Ethiopia">Ethiopia</option>
+                   <option value="Pakistan">Pakistan</option>
+                   <option value="Phillipines">Philippines</option>
+                   <option value="United States of America">United States of America</option>
+                   <option value="Vietnam">Vietnam</option>
+                </select>
+            </div>
+
+            <div>
+              <label for="email">Email
+                <input type="email" name="email" id="email" required>
+              </label>
+            </div>
+
+            <div>
+              <label for="tel">Phone Number
+                <input type="tel" name="phoneNumber" id="tel" required>
+              </label>
+            </div>
+        </fieldset>
+
+        <fieldset id="secondSet">
+
+        <p>Lunch</p>
+        <div>
+            <label for="meal">Meal Preference</label>
+              <select name="meal" id="meal">
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="chicken">Chicken</option>
+                <option value="beef">Beef</option>
+              </select>
+          </div>
+
+          <p>Payment Details</p>
+
+          <div>
+            <label>Payment Mode</label>
+              <label>
+                <input type="checkbox" name="payment" value="cash">
+                Cash</label>
+              <label>
+                <input type="checkbox" name="payment" value="cheque">
+                Cheque</label>
+              <label>
+                <input type="checkbox" name="payment" value="demand_draft">
+                Demand Draft</label>
+
+          </div>
+
+          <div>
+            <label for="chequeno">DD/Cheque No.
+              <input type="text" name="chequeno" id="chequeno">
+            </label>
+          </div>
+
+          <div>
+            <label for="bank">Drawn On (Bank Name)
+              <input type="text" name="bankName" id="bank">
+            </label>
+          </div>
+
+          <div>
+            <label for="payable">Payable at
+              <input type="text" name="payable" id="payable">
+            </label>
+          </div>
+
+        </fieldset>
+        </div>
+
+        <div class="submitsection">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>
+
+      </form>
+
+    </div>
 
   </body>
 </html>
