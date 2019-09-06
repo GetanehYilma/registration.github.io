@@ -28,6 +28,7 @@ fieldset div.address {
 }
 fieldset {
   border: none;
+  font-weight: bold;
 }
 
 .inputs {
