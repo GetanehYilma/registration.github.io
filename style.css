@@ -27,6 +27,11 @@ fieldset div.address {
   height: 7em;
 }
 
+.inputs {
+  float: right;
+  margin-right: 100px;
+}
+
 
 .submitsection {
   background-color: #b7bdbb;
