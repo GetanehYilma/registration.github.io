@@ -13,7 +13,18 @@ div p {
 }
 #firstSet, #secondSet {
   display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+#firstSet {
+  margin-left: 50px;
+}
+fieldset div {
+  height: 3em;
+}
 
+fieldset div.address {
+  height: 7em;
 }
 
 
